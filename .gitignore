@@ -1,1 +1,8 @@
 .env
+/target/
+*.log
+*.tmp
+.env
+src/main/resources/application.properties
+.idea/
+.vscode/

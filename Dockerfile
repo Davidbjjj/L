@@ -5,7 +5,7 @@ COPY src ./src
 RUN mvn clean package -DskipTests
 
 FROM openjdk:17-jdk-slim
-COPY target/demo-0.0.1-SNAPSHOT.jar app.jar
+COPY target/L-0.0.1-SNAPSHOT.jar app.jar
 
 # Define variáveis de ambiente recomendadas para o Render
 EXPOSE 8080
